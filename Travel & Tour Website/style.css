@@ -1,0 +1,82 @@
+/* General */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('hotel-19.jpg') no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    padding-bottom: 100px;
+    /* Adds spacing below the previous section */
+}
+
+/* Navbar Styles */
+.creative-navbar {
+    background: linear-gradient(90deg, #a6bcd4, #9dd8e4);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 15px 15px;
+    padding: 1rem 2rem;
+}
+
+.creative-logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease-in-out;
+}
+
+.creative-logo span {
+    color: #ffdd57;
+}
+
+.creative-logo:hover {
+    transform: scale(1.1);
+}
+
+.creative-link {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 1rem;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+.creative-link:hover {
+    color: #ffdd57;
+}
+
+.creative-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffdd57;
+    transition: width 0.3s ease-in-out;
+}
+
+.creative-link:hover::after {
+    width: 100%;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.hero-section h1 .highlight {
+    color: #ffc107;
+    transition: color 0.3s ease-in-out;
+}
+
+.hero-section h1 .highlight:hover {
+    color: #007bff;
+}
